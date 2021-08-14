@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY = 'fdb2abab53832eb8205a102170c5f034'
+API_KEY = ''
 USER_AGENT = 'wunderkind777'
 headers = {
     'user-agent': USER_AGENT
