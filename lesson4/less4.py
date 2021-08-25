@@ -115,5 +115,5 @@ def write_db(ip, port, db_name, collection_name, data):
 
 pprint(get_news_lenta_ru())
 pprint(get_news_mail_ru())
-write_db('127.0.0.1', 27017, 'news', 'news_db', list(get_news_lenta_ru()))
-write_db('127.0.0.1', 27017, 'news', 'news_db', list(get_news_mail_ru()))
+write_db('127.0.0.1', 27017, 'news', 'news_db', get_news_lenta_ru())
+write_db('127.0.0.1', 27017, 'news', 'news_db', get_news_mail_ru())
