@@ -79,11 +79,11 @@ class ParsingJob:
     def parser_superjob(self, vacancy):
 
         params = {
-            'keywords': vacancy, \
-            'profession_only': '1', \
-            'geo[c][0]': '15', \
-            'geo[c][1]': '1', \
-            'geo[c][2]': '9', \
+            'keywords': vacancy,
+            'profession_only': '1',
+            'geo[c][0]': '15',
+            'geo[c][1]': '1',
+            'geo[c][2]': '9',
             'page': ''
         }
 
