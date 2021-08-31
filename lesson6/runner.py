@@ -3,7 +3,7 @@ from scrapy.crawler import CrawlerProcess
 
 from lesson6.jobparser import settings
 from lesson6.jobparser.spiders.hhru import HhruSpider
-# from lesson6.jobparser.spiders.hhru import SjruSpider
+from lesson6.jobparser.spiders.superjobru import SuperjobSpider
 
 if __name__ == '__main__':
 
@@ -12,6 +12,6 @@ if __name__ == '__main__':
 
     process = CrawlerProcess(crawler_settings)
     process.crawl(HhruSpider)
-    # process.crawl(SjruSpider)
+    process.crawl(SuperjobSpider)
 
     process.start()
