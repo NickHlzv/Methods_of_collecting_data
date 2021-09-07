@@ -12,7 +12,7 @@ class InstaparserSpider(scrapy.Spider):
     name = 'instaparser'
     allowed_domains = ['instagram.com']
     start_urls = ['https://instagram.com/']
-    insta_login = 'Onliskill_udm' #Левый аккаунт у меня вообще нет инсты))
+    insta_login = 'Onliskill_udm'
     insta_pass = '#PWD_INSTAGRAM_BROWSER:10:1629825416:ASpQAMvl1EAdo0NdRZNcM1/pjlU9rRg4n4cjCM00SDGSV5pDN6XbC93ZbYN67HUOHkXZnGGe2gIWPU2qtQY0HAkIjR5U5syu+lv8qtqeI7cyy2ua6WmBV6AngVo1apn3eJ6O3UAFVgb+q5HtHsQ='
     insta_login_link = 'https://www.instagram.com/accounts/login/ajax/'
     users_parse = ['allegaeonofficial', 'digimortal_band']
