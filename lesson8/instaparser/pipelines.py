@@ -37,4 +37,4 @@ class InstagramPhotosPipeline(ImagesPipeline):
         return item
 
     def file_path(self, request, response=None, info=None, *, item=None):
-        return f'{item["category"]}/{item["parent_name"]}' + os.path.basename(urlparse(request.url).path)
+        return f'{item["category"]}/{item["parent_name"]}/' + os.path.basename(urlparse(request.url).path)
