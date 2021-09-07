@@ -7,7 +7,6 @@ from copy import deepcopy
 from lesson8.instaparser.items import InstaparserItem
 
 
-
 class InstaparserSpider(scrapy.Spider):
     name = 'instaparser'
     allowed_domains = ['instagram.com']
